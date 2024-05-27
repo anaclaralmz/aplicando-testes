@@ -25,3 +25,11 @@ Substituir o texto do barema por:
 3. Configuração de 6 testes unitários para testar o método criado anteriormente.
 3. Testes rodados. Resultado: todos os testes passaram com sucesso.
 ![projeto](./assets/testes-1.png)
+### NUnit testes
+1. Criação de um novo projeto, dentro da solution criada anteriormente.
+![projeto](./assets/project-2.png)
+2. Replicação do método de conversão de temperatura para dentro desse project:
+![projeto](./assets/estrutura-2.png)
+3. Configuração de 6 testes de unidade para testar o método de conversão.
+4. Testes rodados, através da IDE Rider. Resultado: todos os 6 testes passaram com sucesso.
+![projeto](./assets/testes-2.png)
