@@ -6,9 +6,5 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=C21F192E_002D6C8E_002D4DB8_002DA46A_002DECF5C140708D_002Ff_003AConversorTemperatura_002Ecs/@EntryIndexedValue">ExplicitlyExcluded</s:String>
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f133dcd0_002D748b_002D444b_002D85ea_002D28c61ad165b0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from UnitTest1.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Or&gt;
-    &lt;ProjectFile&gt;154E02EA-D1C9-4A35-BA98-37BDD6E1F915/f:UnitTest1.cs&lt;/ProjectFile&gt;
-    &lt;ProjectFile&gt;C21F192E-6C8E-4DB8-A46A-ECF5C140708D/f:UnitTest1.cs&lt;/ProjectFile&gt;
-    &lt;Project Location="/Users/anaclaramuller/Documents/GitHub/aplicando-testes/Tests/testes-unitarios-mstest" Presentation="&amp;lt;testes-unitarios-mstest&amp;gt;" /&gt;
-  &lt;/Or&gt;
+  &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
