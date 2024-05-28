@@ -108,6 +108,7 @@
       Então o resultado será 12.682,42 
 ### 3.2 Exemplo de implementação de testes com xUnit + SpecFlow + Swagger + Docker
 -> Houveram problemas para seguir essa etapa do tutorial, por causa da falta de suporte para o .NET 5.0. Porém, foi feito um estudo a cerca da estruturação do modelo de testes.
-- testes em execução:
+1. Testes em execução:
 
 <img src="./assets/mock-5.png" alt="projeto" height="250"/>
+2. Resultados: inconclusivos. Por problemas com a versão do .NET, a execução dos testes não pode ser concluída com sucesso.
