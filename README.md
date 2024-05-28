@@ -1,11 +1,17 @@
 # Testes de Software com .NET 5: exemplos de utilização
-## Tecnologias e conceitos aprendidos
+## Tecnologias utilizadas 
 - .NET
 - JetBrains Rider (IDE)
 - xUnit
 - NUnit
 - MS Test
+- Moq
+- NSubstitute
+- Fluent Assertions
+## Conceitos aprendidos
 - Testes unitários
+- Mock objects
+- BDD (Behavior Driven Development)
 ## 1. Testes de unidade
 - Iremos implementar testes de unidade para um método que transforma graus Fahrenheit para a escala de Celsius.
 - Foram utilizadas 3 ferramentas diferentes, mas com o mesmo intuito, com o objetivo de conhecer diferentes ferramentas, e comparar as diferentes performances, para os mesmos cenários propostos.
@@ -39,6 +45,7 @@
 2. Criação do método de conversão de escalas te temperatura:
 <img src="./assets/estrutura-1.png" alt="projeto"height="200"/>
 3. Configuração de 6 testes unitários para testar o método criado anteriormente.
+
 4. Testes rodados. Resultado: todos os testes passaram com sucesso:
 <img src="./assets/testes-1.png" alt="projeto" height="250"/>
 
@@ -48,6 +55,7 @@
 2. Replicação do método de conversão de temperatura para dentro desse project:
 <img src="./assets/estrutura-2.png" alt="projeto" height="200"/>
 3. Configuração de 6 testes de unidade para testar o método de conversão.
+
 4. Testes rodados, através da IDE Rider. Resultado: todos os 6 testes passaram com sucesso:
 <img src="./assets/testes-2.png" alt="projeto" height="250"/>
 
@@ -56,8 +64,11 @@
 <img src="./assets/project-3.png" alt="projeto"  height="350"/>
 2. Replicação do método de conversão de temperatura para dentro desse projeto:
 <img src="./assets/estrutura-2.png" alt="projeto" height="200"/>
+
 3. Configuração de 6 testes de unidade para testar o método de conversão.
+
 4. Testes rodados, através da IDE. Resultado: todos os 6 testes passaram com sucesso:
+
 <img src="./assets/testes-3.png" alt="projeto" height="250"/>
 
 ## 2. Mock Objects
@@ -67,6 +78,7 @@
 1. Criar solução vazia, e adicionar um novo projeto de testes unitarios:
 <img src="./assets/mock-1.png" alt="projeto" height="250"/>
 2. Definir método a ser testado, e cenários de teste;
+
 3. Rodar testes:
 <img src="./assets/mock-2.png" alt="projeto" height="250"/>
 4. Resultado: todos os testes passaram com sucesso.
@@ -75,6 +87,22 @@
 1. Adicionar um novo projeto de testes unitarios à solução criada:
 <img src="./assets/mock-3.png" alt="projeto" height="250"/>
 2. Definir método a ser testado, e cenários de teste;
+
 3. Rodar testes:
 <img src="./assets/mock-4.png" alt="projeto" height="250"/>
 4. Resultado: todos os testes passaram com sucesso.
+
+## 3. SpecFlow
+- O SpecFlow é uma feeramenta que serve para implementar abordagens como BDD (Behavior Driven Development), possibilitando a execução de testes de validação de funcionalidades de um projeto através de user stories.
+- O exemplo a seguir se referem a um contexto de cálculo de Juros Compostos, em que definimos uma user story para calcular juros compostos.
+
+### 3.1 Exemplo de definição de user story:
+
+     Funcionalidade: Cálculo de Juros Compostos
+
+    Cenário: SimulacaoJurosCompostos01
+      Dado que o valor o valor do empréstimo é de R$ 10.000,00
+      E que este empréstimo será por 12 meses
+      E que a taxa de juros é de 2,00% ao mês
+      Quando eu solicitar o cálculo do valor total a ser pago ao final do período
+      Então o resultado será 12.682,42 
