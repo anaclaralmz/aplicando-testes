@@ -106,3 +106,8 @@
       E que a taxa de juros é de 2,00% ao mês
       Quando eu solicitar o cálculo do valor total a ser pago ao final do período
       Então o resultado será 12.682,42 
+### 3.2 Exemplo de implementação de testes com xUnit + SpecFlow + Swagger + Docker
+-> Houveram problemas para seguir essa etapa do tutorial, por causa da falta de suporte para o .NET 5.0. Porém, foi feito um estudo a cerca da estruturação do modelo de testes.
+- testes em execução:
+
+<img src="./assets/mock-5.png" alt="projeto" height="250"/>

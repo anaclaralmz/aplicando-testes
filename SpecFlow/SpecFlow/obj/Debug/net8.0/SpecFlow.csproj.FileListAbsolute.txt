@@ -1,6 +1,0 @@
-/Users/anaclaramuller/Documents/GitHub/aplicando-testes/SpecFlow/SpecFlow/obj/Debug/net8.0/SpecFlow.csproj.AssemblyReference.cache
-/Users/anaclaramuller/Documents/GitHub/aplicando-testes/SpecFlow/SpecFlow/obj/Debug/net8.0/SpecFlow.GeneratedMSBuildEditorConfig.editorconfig
-/Users/anaclaramuller/Documents/GitHub/aplicando-testes/SpecFlow/SpecFlow/obj/Debug/net8.0/SpecFlow.AssemblyInfoInputs.cache
-/Users/anaclaramuller/Documents/GitHub/aplicando-testes/SpecFlow/SpecFlow/obj/Debug/net8.0/SpecFlow.AssemblyInfo.cs
-/Users/anaclaramuller/Documents/GitHub/aplicando-testes/SpecFlow/SpecFlow/obj/Debug/net8.0/SpecFlow.csproj.CoreCompileInputs.cache
-/Users/anaclaramuller/Documents/GitHub/aplicando-testes/SpecFlow/SpecFlow/obj/Debug/net8.0/SpecFlow.sourcelink.json
