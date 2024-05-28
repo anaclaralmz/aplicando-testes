@@ -23,7 +23,7 @@ namespace MoqTests
                 .Returns(() => null);
 
             mock.Setup(s => s.ConsultarPendenciasPorCPF(CPF_ERRO_COMUNICACAO))
-                .Throws();
+                .Throws<ArgumentException>();
 
             mock.Setup(s => s.ConsultarPendenciasPorCPF(CPF_SEM_PENDENCIAS))
                 .Returns(() => new List<Pendencia>());

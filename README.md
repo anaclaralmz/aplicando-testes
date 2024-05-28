@@ -63,10 +63,18 @@
 ## 2. Mock Objects
 - Mocks representam uma abordagem que permite simular o comportamento de objetos em diferentes cenários.
 - Nos exemplos a seguir, iremos testar um métodos que faz uma Consulta de Crédito de um cliente em sua conta bancária.
-### 2.1 Exemplo de implementação com Xunit + Moq
-2. Criar solução vazia, e adicionar um novo projeto de testes unitarios:
+### 2.1 Exemplo de implementação com xUnit + Moq + Fluent Assertions
+1. Criar solução vazia, e adicionar um novo projeto de testes unitarios:
 <img src="./assets/mock-1.png" alt="projeto" height="250"/>
-3. Definir método a ser testado, e cenários de teste;
-4. Rodar testes:
+2. Definir método a ser testado, e cenários de teste;
+3. Rodar testes:
 <img src="./assets/mock-2.png" alt="projeto" height="250"/>
-5. Resultado: todos os testes passaram com sucesso.
+4. Resultado: todos os testes passaram com sucesso.
+
+### 2.2 Exemplo de implementação com xUnit + NSubstitute + Fluent Assertions
+1. Adicionar um novo projeto de testes unitarios à solução criada:
+<img src="./assets/mock-3.png" alt="projeto" height="250"/>
+2. Definir método a ser testado, e cenários de teste;
+3. Rodar testes:
+<img src="./assets/mock-4.png" alt="projeto" height="250"/>
+4. Resultado: todos os testes passaram com sucesso.
