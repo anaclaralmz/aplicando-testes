@@ -14,10 +14,12 @@ Substituir o texto do barema por:
 - .NET
 - JetBrains Rider (IDE)
 - xUnit
+- NUnit
+- MS Test
 - Testes unitários
 ## Testes de unidade
 - Iremos implementar testes de unidade para um método que transforma graus Fahrenheit para a escala de Celsius.
-### Xunit testes
+## 1. Xunit - testes unitários
 1. Criação de uma solução vazia, e, após, criação de um projeto de unit tests com Xunit:
 ![projeto](./assets/project-1.png)
 ![projeto](./assets/estrutura-1.png)
@@ -25,7 +27,7 @@ Substituir o texto do barema por:
 3. Configuração de 6 testes unitários para testar o método criado anteriormente.
 3. Testes rodados. Resultado: todos os testes passaram com sucesso.
 ![projeto](./assets/testes-1.png)
-### NUnit testes
+## 2. NUnit - testes unitários
 1. Criação de um novo projeto, dentro da solution criada anteriormente.
 ![projeto](./assets/project-2.png)
 2. Replicação do método de conversão de temperatura para dentro desse project:
@@ -33,3 +35,11 @@ Substituir o texto do barema por:
 3. Configuração de 6 testes de unidade para testar o método de conversão.
 4. Testes rodados, através da IDE Rider. Resultado: todos os 6 testes passaram com sucesso.
 ![projeto](./assets/testes-2.png)
+## 3. MS Test - testes unitários
+1. Criação de um terceito projeto, dentro da solution criada anteriormente.
+![projeto](./assets/project-3.png)
+2. Replicação do método de conversão de temperatura para dentro desse projeto:
+![projeto](./assets/estrutura-3.png)
+3. Configuração de 6 testes de unidade para testar o método de conversão.
+4. Testes rodados, através da IDE. Resultado: todos os 6 testes passaram com sucesso.
+![projeto](./assets/testes-3.png)
